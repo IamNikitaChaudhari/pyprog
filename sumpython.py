@@ -1,4 +1,5 @@
-x = input("Type first number: ") 
-y = input("Type second number: ") 
-sum = int(x) + int(y) 
-print("The sum is: ", sum)
+import sys
+x = int(sys.argv[1]) 
+y = int(sys.argv[2])
+sum = x + y 
+print(sum)
